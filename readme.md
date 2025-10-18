@@ -1,4 +1,4 @@
-# vecr-project-new-ui
+# vecr-project-new-ui-bo2
 
 [![.NET](https://img.shields.io/badge/.NET-%3E=6.0-blue?logo=.net)](https://dotnet.microsoft.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -6,20 +6,6 @@
 
 A modern and responsive user interface for the VECR project, built in C# using Visual Studio.  
 Une interface utilisateur moderne et réactive pour le projet VECR, développée en C# avec Visual Studio.
-
----
-
-## 📑 Table of Contents / Table des matières
-
-- [🚀 Showcase / Démo](#-showcase--démo)
-- [📦 Features / Fonctionnalités](#-features--fonctionnalités)
-- [⚙️ Requirements / Prérequis](#️-requirements--prérequis)
-- [🛠️ Installation & Execution / Installation & Exécution](#️-installation--execution--installation--exécution)
-- [📄 License / Licence](#-license--licence)
-- [🤝 Contributing / Contribuer](#-contributing--contribuer)
-- [📞 Contact](#-contact)
-
----
 
 ## 🚀 Showcase / Démo
 

@@ -1,0 +1,50 @@
+#crosshair-panel {
+    display: flex;
+    pointer-events: none;
+    border-style: solid;
+    background: var(--bg-color);
+    border-color: transparent;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 10px;
+}
+
+.crosshair {
+    padding: 10px;
+    position: relative;
+}
+
+.crosshair::before,
+.crosshair::after {
+    content: "";
+    position: absolute;
+    background-color: var(--crosshair-color);
+}
+
+.crosshair::before {
+    left: 50%;
+    top: 0;
+    width: var(--crosshair-thickness, 10px);
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+.crosshair::after {
+    top: 50%;
+    left: 0;
+    height: var(--crosshair-thickness, 10px);
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+
+@media (max-width: 700px) {
+
+    #crosshair-panel {
+        margin: 0;
+        right: 48px;
+        top: 222px;
+    }
+}

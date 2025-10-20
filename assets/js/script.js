@@ -67,7 +67,7 @@ tabs.forEach(tab => {
 });
 
 // Example dynamic values
-document.getElementById("pc-name").textContent = navigator.platform;
+// document.getElementById("pc-name").textContent = navigator.platform;
 document.getElementById("expiry").textContent = "∞";
 
 
@@ -260,9 +260,13 @@ function initWebSocket() {
       }
 
       if (data.type === "fpsUpdate") {
+        const pcName = document.getElementById("pc-name");
         const fpsDisplay = document.getElementById("fps-display");
         if (fpsDisplay) {
           fpsDisplay.textContent = "FPS: " + data.fps;
+        }
+        if (pcName) {
+          pcName.textContent = data.pcName;
         }
       }
 
